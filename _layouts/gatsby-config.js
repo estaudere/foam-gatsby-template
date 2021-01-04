@@ -17,5 +17,15 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-double-brackets-link`,
+          },
+        ],
+      },
+    },
   ],
 };
